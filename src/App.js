@@ -8,7 +8,7 @@ function App() {
         <nav>
           <h1>Streaming Sync</h1>
           <ul>
-            <li>Home</li>
+            <li>Home</li> 
             <li>Services</li>
             <li>Watch Together</li>
             <li>About</li>

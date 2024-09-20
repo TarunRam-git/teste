@@ -1,0 +1,35 @@
+/* src/WatchParty.css */
+
+.watch-party {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .watch-party h2 {
+    margin-bottom: 20px;
+  }
+  
+  .watch-party input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .watch-party button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .watch-party button:hover {
+    background-color: #00bfff;
+  }
+  

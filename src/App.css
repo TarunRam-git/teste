@@ -1,37 +1,88 @@
+/* App.css */
+
+/* Center the entire content */
 .App {
   text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
   font-family: Arial, sans-serif;
 }
 
+/* Style the header */
 header {
-  background-color: #282c34;
-  padding: 20px;
+  background-color: #333;
   color: white;
+  padding: 20px 0;
 }
 
-nav ul {
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
   list-style: none;
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
 }
 
-nav ul li {
-  display: inline;
-  color: white;
+header li {
   cursor: pointer;
 }
 
+header li:hover {
+  color: #00bfff;
+}
+
+/* Style the main section */
 main {
   padding: 20px;
 }
 
+main h2 {
+  margin-bottom: 10px;
+}
+
+/* Organize the video search results */
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.video-item {
+  width: 250px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.video-item:hover {
+  transform: scale(1.05);
+}
+
+.video-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.video-item h3 {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+/* Style the footer */
 footer {
-  background-color: #282c34;
+  background-color: #333;
   color: white;
   padding: 10px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
+  margin-top: 20px;
 }

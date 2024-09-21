@@ -7,7 +7,7 @@ const YouTubeSearch = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [videos, setVideos] = useState([]);
 
-  const API_KEY = 'AIzaSyCZ4j9k13vXMwPbdmCLOvgqTAeJBhEeUHs'; // Replace with your actual API key
+  const API_KEY = ''; // Replace with your actual API key
 
   const handleSearch = async (e) => {
     e.preventDefault();
